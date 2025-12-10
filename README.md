@@ -1,79 +1,79 @@
-DoomDay_3D-Game
+🔥 DoomsDay 3D – Demon Maze Edition
 
-DoomsDay 3D is a retro FPS built with Python and Pygame, featuring a DOOM-style raycasting engine, animated enemies, massive virus creatures, dynamic lighting, and a high-intensity bio-lab survival theme.
+DoomsDay 3D is a retro-style FPS built with Python and Pygame.
+You’re trapped inside a cursed underworld maze — a twisting hellscape carved from molten stone, ancient runes, and infernal metal. The halls burn with demonic energy, and the only thing waiting in the shadows is death.
+
+There is no infection.
+No virus mutation.
+No mastermind.
+Just you versus the demons of the deep maze.
+
+Survive as long as you can.
 
 🎮 Features
 
-🔥 Fast DOOM/Wolfenstein-style raycasting 3D engine
-
-🧟‍♂️ Zombies hunting you through the maze
-
-🦠 Giant virus monsters that glow and attack on sight
-
-👿 A corrupted Mastermind Boss controlling the infection
-
-🔫 Weapons system: Rifle → Machine Gun after defeating the boss
-
-💡 Dynamic lighting, shading & DOOM-style UI
-
-🗺 Maze exploration gameplay with no doors — just corridors, walls, and enemies
-
-❤️ HUD: health %, lives, kills
-
+🔥 DOOM/Wolfenstein-style raycasting 3D engine
+😈 Demon-infested maze environment
+👹 Two enemy types: Lesser Demons & Greater Fiends
+🔫 Weapons: Rifle → Machine Gun progression
+💡 Dynamic lighting, shading & retro DOOM-style HUD
+🗺 Procedural-feeling maze with narrow corridors and ambush spots
+❤️ HUD shows: Health %, Lives, Kills
 😵 Win/Lose blur screens
+🎨 Custom sprites, animations, textures & sounds
 
-🎨 Custom sprites, textures, animations, and sounds
+😈 The Demon Maze
 
-🧪 Theme: A Cursed Bio-Lab Maze
+The maze is an ancient hellscape:
 
-Based on your screenshot, the environment has a dark industrial vibe:
+Charred rock walls covered in glowing runes
 
-Mold-covered walls 🧱
+A blood-red sky burning above
 
-Hellish sky glowing in orange 🔥
+Cracks leaking molten light beneath your feet
 
-Ancient demonic carvings 👹
+Hellfire torches lighting the corridors
 
-Neon-green toxic flames ☣️
+Echoes of demons roaring through the halls
 
-The maze isn’t just abandoned… it’s infected.
-Zombies wander blindly, while giant virus blobs mutate in the shadows. The Mastermind Boss — a twisted hybrid of demon and bio-weapon — spreads the infection deeper into the facility.
+There is no exit — only survival.
+Push deeper. Fight harder. How long can you last?
 
-Your mission: fight through the infected maze, destroy the Mastermind, and end the outbreak.
+👿 Enemies
+Lesser Demons
 
-🎯 New Game Objective
+Twisted humanoid horrors.
+Slow alone — deadly in packs.
+They charge aggressively if cornered.
 
-💀 Kill the Mastermind Boss to win the game.
-There is no exit door, no fancy entrance animation — you’re thrown straight into the maze, and the only way out…
+Greater Fiends
 
-…is to eliminate the source of the infection.
+Massive horned beasts of molten bone and flame.
+Erratic movement, heavy damage.
+Their fiery glow reveals them from far away.
 
-After killing the boss:
+Enemies spawn endlessly as you progress.
+The deeper you go, the worse it gets.
 
-💥 You get a machine gun
+🎯 Objective
 
-👿 Enemy spawns double
+Survive and eliminate as many demons as possible.
+No final boss.
+No controller enemy.
+Just you and the hellspawn.
 
-🧟‍♂️ Zombies + 🦠 virus creatures keep coming
+Clear the required number of demons → You Win
+Lose all HP → Game Over
 
-🏆 Win screen appears once the Mastermind falls
+🔫 Weapons
+Rifle
 
-🧟‍♂️🦠 Enemies
-Zombies
+Your starting weapon — basic but reliable.
 
-Slow but deadly in groups — they overwhelm you if cornered.
+Machine Gun
 
-Virus Monsters
-
-Large glowing blobs that move erratically and deal heavy damage.
-Their size + bright toxic color makes them visible even from distance.
-
-The Mastermind
-
-A mutated demon-virus hybrid.
-High HP, aggressive pathfinding, powerful attacks.
-
-Defeat him → Game Won.
+Unlocked after surviving long enough.
+Higher damage, faster fire rate, better survival chances.
 
 🗂 Project Structure
 DoomsDay_3D/
@@ -83,32 +83,34 @@ DoomsDay_3D/
 │     ├── textures/
 │     └── sounds/
 │── README.md
+│── LICENSE
 
 ▶️ Run the Game
 
-Make sure Pygame is installed:
+Install Pygame:
 
 pip install pygame
 
 
-Then run:
+Run the game:
 
 python3 main.py
 
 📦 Assets Included
 
-🧟‍♂️ 8-frame zombie animations
+🔥 Demon sprites (8-frame animations)
+👹 Fiend sprites (8-frame animations)
+🔫 Gun animations (6-frame)
+🧱 Textures: walls, floor, ceiling
+🔊 Sounds: fire, hit, footsteps, ambience
 
-🦠 8-frame virus/boss animations
+🧩 License & Attribution
 
-🔫 6-frame gun animation
+This project uses code originally created by StanislavPetrovV
+and licensed under the MIT License.
+Original source:
+https://github.com/StanislavPetrovV/DOOM-style-Game
 
-🧱 Wall, floor, ceiling textures
-
-🔊 Shoot / hit / boss death / ambient loop sounds
-
-⭐ Support
-
-If you enjoy this project, consider giving the repo a star ⭐ — it helps a lot!
-
-Made With ❤️ by Deon George & Karthik Krishnan for GAME JAM 2025 (Coding Club TKMCE)
+All modifications made in this repository are copyright (c) 2025
+Deon George & Karthik Krishnan
+and are released for GAME JAM 2025 (Coding Club TKMCE) under the MIT License.
