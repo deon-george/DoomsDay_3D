@@ -1,116 +1,58 @@
-🔥 DoomsDay 3D – Demon Maze Edition
+💀 Dies Fatum 3D A KD Company Production
 
-DoomsDay 3D is a retro-style FPS built with Python and Pygame.
-You’re trapped inside a cursed underworld maze — a twisting hellscape carved from molten stone, ancient runes, and infernal metal. The halls burn with demonic energy, and the only thing waiting in the shadows is death.
+Dies Fatum 3D (Latin for The Doom Day) is a retro FPS built with Python and Pygame, featuring a classic raycasting engine, demonic creatures, toxic bio-lab environments, dynamic lighting, and a relentless survival atmosphere.
 
-There is no infection.
-No virus mutation.
-No mastermind.
-Just you versus the demons of the deep maze.
+Developed by KD Company (Karthik & Deon) for GAME JAM 2025 (Coding Club TKMCE).
 
-Survive as long as you can.
+🎮 Game Overview
 
-🎮 Features
+The maze isn’t empty — it’s cursed. Dies Fatum 3D throws you into a decaying bio-lab where ancient demonic carvings mix with glowing toxic waste. Strange creatures roam the corridors. Shadows move even when nothing should be there.
 
-🔥 DOOM/Wolfenstein-style raycasting 3D engine
-😈 Demon-infested maze environment
-👹 Two enemy types: Lesser Demons & Greater Fiends
-🔫 Weapons: Rifle → Machine Gun progression
-💡 Dynamic lighting, shading & retro DOOM-style HUD
-🗺 Procedural-feeling maze with narrow corridors and ambush spots
-❤️ HUD shows: Health %, Lives, Kills
-😵 Win/Lose blur screens
-🎨 Custom sprites, animations, textures & sounds
+Your only goal: survive long enough to earn victory.
 
-😈 The Demon Maze
+🌟 Key Features
 
-The maze is an ancient hellscape:
+Retro Wolfenstein/DOOM-style raycasting engine.
+Dynamic lighting, shading, and a dark industrial atmosphere.
+UI and HUD tracking Health, Lives, and Kills.
+No level exits — only continuous survival.
+Time-based victory system: stay alive long enough to win.
+Visual effects like blur screens, animated textures, and custom sprites.
+🎯 The Mission
 
-Charred rock walls covered in glowing runes
+There are no bosses. There are no escape routes. There is only survival.
 
-A blood-red sky burning above
+Objective: stay alive.
 
-Cracks leaking molten light beneath your feet
+Navigate the dark corridors of the infected maze.
+Fight off demons and monstrous entities stalking the lab.
+Sustain your health and avoid getting overwhelmed.
+Survive for the required duration — when the timer completes, the Victory screen appears.
+🧟‍♂️ The Enemies
 
-Hellfire torches lighting the corridors
-
-Echoes of demons roaring through the halls
-
-There is no exit — only survival.
-Push deeper. Fight harder. How long can you last?
-
-👿 Enemies
-Lesser Demons
-
-Twisted humanoid horrors.
-Slow alone — deadly in packs.
-They charge aggressively if cornered.
-
-Greater Fiends
-
-Massive horned beasts of molten bone and flame.
-Erratic movement, heavy damage.
-Their fiery glow reveals them from far away.
-
-Enemies spawn endlessly as you progress.
-The deeper you go, the worse it gets.
-
-🎯 Objective
-
-Survive and eliminate as many demons as possible.
-No final boss.
-No controller enemy.
-Just you and the hellspawn.
-
-Clear the required number of demons → You Win
-Lose all HP → Game Over
-
-🔫 Weapons
-Rifle
-
-Your starting weapon — basic but reliable.
-
-Machine Gun
-
-Unlocked after surviving long enough.
-Higher damage, faster fire rate, better survival chances.
-
+Enemy Type	Description	Threat Level
+Monsters	Fast, aggressive creatures that attack on sight.	High
+Demons	Heavier, deadlier beings roaming the deeper corridors. Their attacks hit harder.	Very High
 🗂 Project Structure
-DoomsDay_3D/
-│── main.py
-│── assets/
-│     ├── sprites/
-│     ├── textures/
-│     └── sounds/
-│── README.md
-│── LICENSE
 
-▶️ Run the Game
+Dies_Fatum_3D/ │── main.py │── assets/ │ ├── sprites/ (monster and demon animations) │ ├── textures/ (walls, floor, ceiling, sky) │ └── sounds/ (attack, hit, ambient loops) │── README.md
+
+▶️ How to Play
 
 Install Pygame:
-
 pip install pygame
 
-
-Run the game:
-
+Launch the Game:
 python3 main.py
-
-📦 Assets Included
-
-🔥 Demon sprites (8-frame animations)
-👹 Fiend sprites (8-frame animations)
-🔫 Gun animations (6-frame)
-🧱 Textures: walls, floor, ceiling
-🔊 Sounds: fire, hit, footsteps, ambience
 
 🧩 License & Attribution
 
-This project uses code originally created by StanislavPetrovV
-and licensed under the MIT License.
-Original source:
-https://github.com/StanislavPetrovV/DOOM-style-Game
+This project uses code originally created by StanislavPetrovV and licensed under the MIT License. Original source: https://github.com/StanislavPetrovV/DOOM-style-Game
 
-All modifications made in this repository are copyright (c) 2025
-Deon George & Karthik Krishnan
-and are released for GAME JAM 2025 (Coding Club TKMCE) under the MIT License.
+All modifications made in this repository are copyright (c) 2025 Deon George & Karthik Krishnan and are released for GAME JAM 2025 (Coding Club TKMCE) under the MIT License.
+
+⭐ Support
+
+If you enjoy Dies Fatum 3D, consider giving the repo a star — it helps KD Company grow!
+
+Made with ❤️ by KD Company (Karthik Krishnan & Deon George)
